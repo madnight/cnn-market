@@ -1,6 +1,6 @@
 {
   "name": "cnn-market",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stock market information from CNN",
   "main": "index.js",
   "scripts": {

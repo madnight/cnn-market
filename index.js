@@ -52,7 +52,7 @@ const cnnMarket = async () => {
     const d = (await (scrapeIt(url, selector))).data
     return [
         { symbol: "DOW",      value: d.dow,      change: d.dowChg,     changePcnt: d.dowChgPcnt      },
-        { symbol: "NASDAQ",   value: d.nasdaq,   change: d.nasdaqChg,  changePcnt: d.nasdaqChg       },
+        { symbol: "NASDAQ",   value: d.nasdaq,   change: d.nasdaqChg,  changePcnt: d.nasdaqChgPcnt   },
         { symbol: "S&P500",   value: d.sp500,    change: d.sp500Chg,   changePcnt: d.sp500ChgPcnt    },
         { symbol: "Japan",    value: d.japan,    change: d.japanChg,   changePcnt: d.japanChgPcnt    },
         { symbol: "HongKong", value: d.hk,       change: d.hkChg,      changePcnt: d.hkChgPcnt       },
