@@ -17,7 +17,7 @@ Example Output:
   { symbol: 'NASDAQ',
     value: '7,895.99',
     change: '+129.38',
-    changePcnt: '+129.38' },
+    changePcnt: '+1.67%' },
   { symbol: 'S&P500',
     value: '2,888.68',
     change: '+41.08',
