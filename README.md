@@ -9,7 +9,7 @@ const { cnnMarket } = require("cnn-market")
 cnnMarket().then( data => console.log(data) )
 ```
 Example Output:
-```
+```js
 [ { symbol: 'DOW',
     value: '25,886.01',
     change: '+306.62',
